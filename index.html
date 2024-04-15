@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <center>
+        <div class="time">
+            <div id="displaytime">00:00:00:00</div>
+
+    
+                <img src="https://cdn.pixabay.com/animation/2023/04/08/02/06/02-06-37-700_512.gif" id="running">
+                <div id="road">
+    
+                    <div id="shadow"></div>
+                
+
+            </div>
+           
+            <div class="clicks">
+                <button onclick="stoptime()">Pause</button>
+                <button onclick="startTime()">Start</button>
+                <button onclick="restartTime()">Reset</button>
+                <button onclick="LapFunction()">Laps</button>
+                <button onclick="removelaps()"> ClearLap</button>
+            </div>
+
+            <div class="unorderedlist">
+                <p id="lapscount"></p>
+            </div>
+
+
+        </div>
+    </center>
+    <script src="./script.js"></script>
+</body>
+</html>
